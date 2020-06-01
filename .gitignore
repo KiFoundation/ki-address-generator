@@ -7,3 +7,4 @@ ia32/chrome_100_percent.pak
 static/*
 index.html
 app/static/js/config.js
+app/dist/*

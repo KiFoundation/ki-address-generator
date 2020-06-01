@@ -77,18 +77,18 @@
                 </b-col>
               </b-row>
               <b-row style="margin-bottom:20px;">
-                <b-col>This key is sharable with anyone, it allows you to recieve Ki tokens</b-col>
+                <b-col>This address is sharable with anyone, it allows you to receive Ki tokens</b-col>
               </b-row>
               <b-row style="margin-bottom:10px;">
                 <b-col>
                   <div class="final-form">
                     <ul>
                       <li class="token">
-                        <label>You address (Bech32)</label>
+                        <label>Your address (Bech32)</label>
                         <textarea class="warning" v-model="address" rows="1" disabled></textarea>
                       </li>
                       <li class="token">
-                        <label>You public key (Hex)</label>
+                        <label>Your public key (Hex)</label>
                         <textarea class="warning" v-model="public_key" rows="2" disabled></textarea>
                       </li>
                     </ul>
@@ -111,11 +111,11 @@
                   <div class="final-form">
                     <ul>
                       <li class="token">
-                        <label>You mnemonic</label>
+                        <label>Your mnemonic</label>
                         <textarea class="danger" v-model="mnemonic" rows="3" disabled></textarea>
                       </li>
                       <li class="token">
-                        <label>You private key (Hex)</label>
+                        <label>Your private key (Hex)</label>
                         <textarea class="danger" v-model="private_key" rows="2" disabled></textarea>
                       </li>
                     </ul>
@@ -137,7 +137,7 @@
                     <div class="save">
                       <ul>
                         <li>
-                          <label style="color:#2c363f; margin-bottom:20px;">You address</label>
+                          <label style="color:#2c363f; margin-bottom:20px;">Your address</label>
                           <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
                             <label style="margin-bottom:0;" for="address-save">@</label> <input id="address-save" v-model="address" disabled></input>
                           </div>
@@ -246,7 +246,7 @@
       </div>
     </div>
   </div>
-  <footer class="copyright">KiFoundation 2020</footer>
+  <footer class="copyright">Ki Foundation 2020</footer>
 
 </div>
 </template>

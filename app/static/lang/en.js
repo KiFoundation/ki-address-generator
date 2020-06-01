@@ -10,12 +10,12 @@ module.exports = {
   end: 'I wrote down all of the above, erase this page and proceed',
   save : 'Save',
   webwallet_home_create: 'Generate a new Ki address',
-  account_text: 'In order to provision your acccount with the right amount of tokens, please confirm the number wirtten in the Private Sale Agreement signed by both parties.',
+  account_text: 'In order to provision your acccount with the right amount of tokens, please confirm the number written in the Private Sale Agreement signed by both parties.',
   account_confirm:'I hereby confirm that the address is correct.',
   welcome_text_1:'Welcome to the Ki Mainnet address generator',
   welcome_text_2:'Creating your Mainnet wallet can be done in 3 simple steps to follow.',
   thankyou_text_1:'Mainnet Address Generation Complete',
-  thankyou_text_2:'Thank you for completing the genesis wallet creation process, Once we have received your JSON file via mail (to genesis@foundation.ki), we will contact you for a final step confirmation.',
+  thankyou_text_2:'Thank you for completing the genesis wallet creation process. Once we have received your JSON file via email (to genesis@foundation.ki), we will contact you for a final step confirmation.',
   warning_details:'Carefully read all the details of the process of wallet creation',
   warning_save:'By clicking on Save, you will be asked to download a file. This file will have to be sent to genesis@foundation.ki to help us setup your wallet.'
 }
